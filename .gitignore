@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+*.log
+
+# 模型与向量库（体积大，需本地下载）
+Qwen3-VL-Embedding-8B/
+Qwen3-Reranker-0.6B/
+Qwen3-Reranker-0.6B-seq-cls/
+chroma_db/
+data/
+logs/
+
+# 用户上传的文档
+uploaded_docs/*
+!uploaded_docs/.gitkeep
+!uploaded_docs/frequent/
+!uploaded_docs/infrequent/
+uploaded_docs/frequent/*
+uploaded_docs/infrequent/*
+!uploaded_docs/frequent/.gitkeep
+!uploaded_docs/infrequent/.gitkeep
+
+# Node
+vector_admin_ui/node_modules/
+vector_admin_ui/dist/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# 打包产物
+*.zip
